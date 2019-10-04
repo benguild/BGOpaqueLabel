@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "BGOpaqueLabel"
-  s.version          = "1.0.0"
+  s.version          = "1.0.1"
   s.homepage         = "https://github.com/benguild/BGOpaqueLabel"
   s.summary          = "An opaque, non-blended label for `UIKit` on iOS with full Emoji support."
   s.license          = 'MIT'
