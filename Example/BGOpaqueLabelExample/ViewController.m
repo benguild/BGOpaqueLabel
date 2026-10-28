@@ -8,7 +8,7 @@
 
 #import "ViewController.h"
 
-#import "BGOpaqueLabel.h"
+#import "BGOpaqueLabelExample-Swift.h"
 
 @interface ViewController ()
 

@@ -12,7 +12,7 @@
 		3DD8C88F233C48D500C47C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8C88E233C48D500C47C88 /* Assets.xcassets */; };
 		3DD8C892233C48D500C47C88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8C890233C48D500C47C88 /* LaunchScreen.storyboard */; };
 		3DD8C895233C48D500C47C88 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8C894233C48D500C47C88 /* main.m */; };
-		3DD8C8A1233C4A0900C47C88 /* BGOpaqueLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.m */; };
+		3DD8C8A1233C4A0900C47C88 /* BGOpaqueLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,8 +25,7 @@
 		3DD8C891233C48D500C47C88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DD8C893233C48D500C47C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD8C894233C48D500C47C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3DD8C89F233C49E500C47C88 /* BGOpaqueLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = BGOpaqueLabel.h; path = ../../../BGOpaqueLabel.h; sourceTree = "<group>"; };
-		3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = BGOpaqueLabel.m; path = ../../../BGOpaqueLabel.m; sourceTree = "<group>"; };
+		3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BGOpaqueLabel.swift; path = ../../Sources/BGOpaqueLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +74,10 @@
 		3DD8C89E233C498200C47C88 /* Includes */ = {
 			isa = PBXGroup;
 			children = (
-				3DD8C89F233C49E500C47C88 /* BGOpaqueLabel.h */,
-				3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.m */,
+				3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.swift */,
 			);
 			name = Includes;
-			path = "/Users/benguild/Documents/Random Projects/BGOpaqueLabel/Example/BGOpaqueLabelExample/Includes";
-			sourceTree = "<absolute>";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
@@ -153,7 +150,7 @@
 			files = (
 				3DD8C88A233C48D300C47C88 /* ViewController.m in Sources */,
 				3DD8C884233C48D300C47C88 /* AppDelegate.m in Sources */,
-				3DD8C8A1233C4A0900C47C88 /* BGOpaqueLabel.m in Sources */,
+				3DD8C8A1233C4A0900C47C88 /* BGOpaqueLabel.swift in Sources */,
 				3DD8C895233C48D500C47C88 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +295,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BGOpaqueLabelExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -318,6 +317,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = BGOpaqueLabelExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
