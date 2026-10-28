@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FAA01057B39353601421197 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF6CCF3F0EDA5590D89716BC /* SceneDelegate.m */; };
 		3DD8C884233C48D300C47C88 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8C883233C48D300C47C88 /* AppDelegate.m */; };
 		3DD8C88A233C48D300C47C88 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DD8C889233C48D300C47C88 /* ViewController.m */; };
 		3DD8C88F233C48D500C47C88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DD8C88E233C48D500C47C88 /* Assets.xcassets */; };
@@ -26,6 +27,8 @@
 		3DD8C893233C48D500C47C88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3DD8C894233C48D500C47C88 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3DD8C8A0233C49E500C47C88 /* BGOpaqueLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BGOpaqueLabel.swift; path = ../../Sources/BGOpaqueLabel.swift; sourceTree = "<group>"; };
+		AF6CCF3F0EDA5590D89716BC /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		F150E5CCBD0C273C5600E0CD /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				3DD8C89E233C498200C47C88 /* Includes */,
 				3DD8C882233C48D300C47C88 /* AppDelegate.h */,
 				3DD8C883233C48D300C47C88 /* AppDelegate.m */,
+				F150E5CCBD0C273C5600E0CD /* SceneDelegate.h */,
+				AF6CCF3F0EDA5590D89716BC /* SceneDelegate.m */,
 				3DD8C888233C48D300C47C88 /* ViewController.h */,
 				3DD8C889233C48D300C47C88 /* ViewController.m */,
 				3DD8C88E233C48D500C47C88 /* Assets.xcassets */,
@@ -150,6 +155,7 @@
 			files = (
 				3DD8C88A233C48D300C47C88 /* ViewController.m in Sources */,
 				3DD8C884233C48D300C47C88 /* AppDelegate.m in Sources */,
+				1FAA01057B39353601421197 /* SceneDelegate.m in Sources */,
 				3DD8C8A1233C4A0900C47C88 /* BGOpaqueLabel.swift in Sources */,
 				3DD8C895233C48D500C47C88 /* main.m in Sources */,
 			);
